@@ -11,13 +11,14 @@
   <body>
     <div class="clock-container">
     <h1>World Clock</h1>
-    <select>
+    <select id="city">
         <option value="">Select a City</option>
-        <option>Nashville</option>
-        <option>Seoul</option>
-        <option>Dublin</option>
+        <option value="America/Nashville">Nashville</option>
+        <option value="Asia/Seoul">Seoul</option>
+        <option value="Europe/Dublin">Dublin</option>
     </select>
-    <div class="city" id="chicago">
+    <div id="cities">
+           <div class="city" id="chicago">
         <div>
         <h2>Chicago</h2>
         <div class="date"></div>
@@ -31,13 +32,13 @@
     </div> 
         <div class="time"></div>
     </div>
-
-    </div>
-
-    
-
+</div>
+</div>  
+</div>
+</body>
   </body>
   <script src="javascript/index.js"></script>
+
   <footer>
     Coded by <strong>Cassie Anciulis.</strong> This project is open sourced on
     <a href="https://github.com/SithPrincess/World-Clock.git" target="_blank"
